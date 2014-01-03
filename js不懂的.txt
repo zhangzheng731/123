@@ -1,0 +1,10 @@
+For/In 循环
+JavaScript for/in 语句循环遍历对象的属性：
+
+实例
+var person={fname:"John",lname:"Doe",age:25};
+
+for (x in person)
+  {
+  txt=txt + person[x];
+  }
